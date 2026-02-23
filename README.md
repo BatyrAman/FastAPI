@@ -16,3 +16,21 @@ Simple REST API for managing books using **FastAPI** and **PostgreSQL (Neon)**.
 ---
 
 ## 📂 Project Structure
+
+BookDB/
+│
+├── src/
+│ ├── books/
+│ │ ├── routes.py
+│ │ ├── schemas.py
+│ │
+│ ├── db/
+│ │ ├── models.py
+│ │ ├── main.py
+│ │
+│ ├── config.py
+│ └── init.py
+│
+├── requirements.txt
+├── .env
+└── .gitignore 
