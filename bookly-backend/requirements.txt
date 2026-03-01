@@ -4,3 +4,4 @@ pydantic-settings
 psycopg2-binary
 asyncpg==0.29.0
 greenlet
+uvicorn[standard]
